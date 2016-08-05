@@ -14,6 +14,6 @@ TODO
 | [mqtt.js](https://github.com/mqttjs/MQTT.js) | A library for the MQTT protocol. |
 | [noble](https://github.com/sandeepmistry/noble) | A Node.js BLE (Bluetooth Low Energy) central module. |
 | [lirc-gpio-generic](https://github.com/danitool/openwrt-pkgs/tree/cc/lirc-gpio-generic) | LIRC GPIO receiver / blaster. |
-| [lirc](https://github.com/danitool/openwrt-pkgs/tree/cc/lirc) | |
-
+| [lirc](https://github.com/danitool/openwrt-pkgs/tree/cc/lirc) | Linux Infrared Remote Control. |
+| [moment](https://github.com/moment/moment) | Parse, validate, manipulate, and display dates in javascript. |
 
