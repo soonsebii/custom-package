@@ -16,4 +16,5 @@ TODO
 | [lirc-gpio-generic](https://github.com/danitool/openwrt-pkgs/tree/cc/lirc-gpio-generic) | LIRC GPIO receiver / blaster. |
 | [lirc](https://github.com/danitool/openwrt-pkgs/tree/cc/lirc) | Linux Infrared Remote Control. |
 | [moment](https://github.com/moment/moment) | Parse, validate, manipulate, and display dates in javascript. |
-
+| [simple-restful-api](https://github.com/soonsebii/simple-restful-api) | Lightweight RESTful API Server. |
+| [webworker-threads](https://github.com/audreyt/node-webworker-threads) | Lightweight Web Worker API implementation with native threads |
