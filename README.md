@@ -1,19 +1,19 @@
-# Custom-package
+# Custom-packages
 
 ## Install
 
-1. Add this repository.
+#### 1. Add this repository.
 ```bash
 $ echo "src-git custom https://github.com/soonsebii/openwrt-custom-package.git" >> feeds.conf.default
 ```
 
-2. Install
+#### 2. Install
 ```bash
 $ ./script/feeds update custom
 $ ./script/feeds install -a custom
 ```
 
-3. If any problem occurs when installing, see the following.
+#### 3. If any problem occurs when installing, see the following.
 ```bash
 $ tree -d ./package/feeds | grep node // The Node.js may be installed already. (in OpenWRT Core)
 $ ./script/feeds uninstall node
