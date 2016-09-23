@@ -19,7 +19,7 @@ PKG_SOURCE_VERSION:=bb9a12da815cf0c0e43792cfcd9ba4d61ad712c9
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_BUILD_DEPENDS:=node/host libbluetooth libudev
-PKG_NODE_VERSION:=0.12.7
+PKG_NODE_VERSION:=4.5.0
 
 include $(INCLUDE_DIR)/package.mk
 
