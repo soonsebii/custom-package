@@ -32,6 +32,8 @@ $ ./script/feeds install -p custom node
 | reg | register the read/write test program. The rt_rdm module must be put in first. |
 
 #### Node.js
+| Name                         | Description                       |
+| ---------------------------- | --------------------------------- |
 | [gc-profiler](https://github.com/bretcope/node-gc-profiler) | gc-profiler for Node.js |
 | [lirc_node](https://github.com/alexbain/lirc_node) | Control LIRC from Node. |
 | [lirc_web](https://github.com/alexbain/lirc_web) | A NodeJS / Express app that creates a web UI + API for LIRC. |
