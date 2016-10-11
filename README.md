@@ -13,7 +13,7 @@ $ ./script/feeds update custom
 $ ./script/feeds install -a -p custom
 ```
 
-## Issues.
+## Issues
 
 #### If any problem occurs when installing, see the following.
 ```bash
