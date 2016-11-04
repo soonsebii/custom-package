@@ -7,15 +7,15 @@
 
 include $(TOPDIR)/rules.mk
 
-PKG_NPM_NAME:=simple-restful-api
+PKG_NPM_NAME:=node-status-api
 PKG_NAME:=$(PKG_NPM_NAME)
 PKG_VERSION:=0.0.1
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/soonsebii/simple-restful-api
+PKG_SOURCE_URL:=https://github.com/soonsebii/node-status-api.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_VERSION:=14bf35bb0ab8a7459a54095982456dfb17fe9df4
+PKG_SOURCE_VERSION:=56808b18c6e854c189c9ebeb54a5c0d0dfaf033c
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
 
 PKG_BUILD_DEPENDS:=node/host
@@ -23,16 +23,16 @@ PKG_NODE_VERSION:=4.5.0
 
 include $(INCLUDE_DIR)/package.mk
 
-define Package/simple-restful-api
+define Package/node-status-api
   SUBMENU:=Node.js
   SECTION:=lang
   CATEGORY:=Languages
   DEPENDS:=+node
   TITLE:=Lightweight RESTful API Server.
-  URL:=https://github.com/soonsebii/simple-restful-api
+  URL:=https://github.com/soonsebii/node-status-api
 endef
 
-define Package/simple-restful-api/description
+define Package/node-status-api/description
   Lightweight RESTful API Server.
 endef
 
@@ -45,10 +45,10 @@ define Build/Compile
 	$(STAGING_DIR_HOST)/bin/npm install -g $(PKG_BUILD_DIR)
 endef
 
-define Package/simple-restful-api/install
-	mkdir -p $(1)/usr/lib/node_modules/simple-restful-api
-	$(CP) -r $(PKG_INSTALL_DIR)/usr/lib/node_modules/simple-restful-api/* $(1)/usr/lib/node_modules/simple-restful-api/
+define Package/node-status-api/install
+	mkdir -p $(1)/usr/lib/node_modules/node-status-api
+	$(CP) -r $(PKG_INSTALL_DIR)/usr/lib/node_modules/node-status-api/* $(1)/usr/lib/node_modules/node-status-api/
 endef
 
-$(eval $(call BuildPackage,simple-restful-api))
+$(eval $(call BuildPackage,node-status-api))
 

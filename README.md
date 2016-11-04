@@ -55,8 +55,9 @@ $ find . -name "Makefile" -exec sed -i 's/0\.12\.7/4\.5\.0/g' {} \; // 0.12.7 ->
 | [mqtt.js](https://github.com/mqttjs/MQTT.js) | A library for the MQTT protocol. |
 | [noble](https://github.com/sandeepmistry/noble) | A Node.js BLE (Bluetooth Low Energy) central module. |
 | node | Node.js 4.5 |
-| [simple-restful-api](https://github.com/soonsebii/simple-restful-api) | Lightweight RESTful API Server. |
+| [node-status-api](https://github.com/soonsebii/node-status-api) | Lightweight RESTful API Server. |
 | [webworker-threads](https://github.com/audreyt/node-webworker-threads) | Lightweight Web Worker API implementation with native threads |
+| [heapdump](https://github.com/bnoordhuis/node-heapdump) | Make a dump of the V8 heap for later inspection. |
 
 ## License
 MIT
