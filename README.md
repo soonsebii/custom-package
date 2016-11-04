@@ -20,6 +20,11 @@ $ ./script/feeds install -a -p custom
 $ tree -d ./package/feeds | grep node // The Node.js may be installed already. (in OpenWRT Core)
 $ ./script/feeds uninstall node
 $ ./script/feeds install -p custom node
+
+// bluez
+$ tree -d ./pcakge/feeds | grep blue*
+$ ./script/feeds uninstall bluez-utils
+$ ./script/feeds install -p custom bluez-utils
 ```
 
 #### Module version missmatch.
